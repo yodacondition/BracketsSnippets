@@ -1,0 +1,29 @@
+(function() {
+    'use strict';
+ 
+    angular.module('$${appName}.$${moduleName}').run(appRun);
+ 
+    /* @ngInject */
+    function appRun(routehelper) {
+        routehelper.configureRoutes(getRoutes());
+    }
+ 
+    function getRoutes() {
+        return [
+            {
+                url: '/$${url}',
+                config: {
+                    templateUrl: 'app/$${url}/$${fileName}',
+                    controller: '$${controllerName}',
+                    controllerAs: '$${controllerAs}',
+                    title: '$${title}',
+                    settings: {
+                        nav: $${mainNavOrder},
+                        content: '<i class="fa fa-lock"></i> $${title}'
+                    }
+                }
+            }
+            ];
+    }
+})(); 
+!!{cursor}

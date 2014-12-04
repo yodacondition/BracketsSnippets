@@ -1,0 +1,31 @@
+(function() {
+    'use strict';
+ 
+    angular.module('$${appName}.$${moduleName}')
+           .controller('$${controllerName}', $${controllerName});
+ 
+    /* @ngInject */
+    function $${controllerName}($${dataService}) {
+    
+        /*jshint validthis: true */
+        var vm = this;
+        vm.$${listName} = [];
+        vm.title = '$${title}';
+
+        activate();
+
+        function activate() {
+            return $${getListItemFunctionName}().then(function() {
+            //do stuff usually log
+            });
+        }
+ 
+        function $${getListItemFunctionName}() {
+            return $${dataService}.$${getListItemFunctionName}().then(function(data) {
+                vm.$${listName} = data;
+                return vm.$${listName};
+            });
+        }
+    }
+})();
+!!{cursor}

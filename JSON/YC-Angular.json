@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Angular - Constant Module",
+        "trigger": "ngcm",
+        "usage": "ngcm",
+        "description": "This will create an angular constant module.",
+        "template": "ngcm.snippet"
+    },
+    {
+        "name": "Angular - Constant",
+        "trigger": "ngc",
+        "usage": "ngc name value",
+        "description": "This will create an angular constant to be used in the module.",
+        "template": "ngc.snippet"
+    },
+    {
+        "name": "Angular - Data Service",
+        "trigger": "ngds",
+        "usage": "ngds",
+        "description": "This will create a dataservice with all the promise set up build in.",
+        "template": "ngds.snippet"
+    },
+    {
+        "name": "Angular - Function Interface",
+        "trigger": "ngfi",
+        "usage": "ngfi",
+        "description": "This will create a function name and function to be added to a list of functions in an interface.",
+        "template": "ngfi.snippet"
+    },
+    {
+        "name": "Angular - Http Function",
+        "trigger": "ngfh",
+        "usage": "ngfh",
+        "description": "This will create a function to be used in an angular module that will use Http to get results and has a complete callback function as well, could be used in conjunction with the interface.",
+        "template": "ngfh.snippet"
+    },
+    {
+        "name": "Angular - Controller",
+        "trigger": "ngct",
+        "usage": "ngct",
+        "description": "This will create a controller and hook it up to the Angular App.",
+        "template": "ngct.snippet"
+    },
+    {
+        "name": "Angular - Dependency",
+        "trigger": "ngdep",
+        "usage": "ngdep controllerName dependency",
+        "description": "This will create a dependency attached to the controller for dependency injection.",
+        "template": "ngdep.snippet"
+    },
+    {
+        "name": "Angular - Controller",
+        "trigger": "ngct",
+        "usage": "ngct",
+        "description": "This will create a controller.",
+        "template": "ngct.snippet"
+    },
+    {
+        "name": "Angular - Controller Scope",
+        "trigger": "ngs",
+        "usage": "ngs name value",
+        "description": "This will create the scope that goes into the controller with the option to set one variable name and value.",
+        "template": "ngs.snippet"
+    },
+    {
+        "name": "Angular - Controller Scope Variable",
+        "trigger": "ngsv",
+        "usage": "ngsv",
+        "description": "This will create the scope variable that goes into the controller with the option to set one variable name and value.",
+        "template": "ngsv.snippet"
+    },
+    {
+        "name": "Angular - Factory",
+        "trigger": "ngf",
+        "usage": "ngf",
+        "description": "This will create a factory module.",
+        "template": "ngf.snippet"
+    },
+    {
+        "name": "Angular - Module ",
+        "trigger": "ngm",
+        "usage": "ngm",
+        "description": "This will create an angular module.",
+        "template": "ngm.snippet"
+    },
+    {
+        "name": "Angular - Module With Controller ",
+        "trigger": "ngmc",
+        "usage": "ngmc",
+        "description": "This will create an angular module with a controller and injected data service.",
+        "template": "ngmc.snippet"
+    },
+    {
+        "name": "Angular - Validator ",
+        "trigger": "ngval",
+        "usage": "ngval",
+        "description": "This will create an angular validation directive.",
+        "template": "ngval.snippet"
+    },
+    {
+        "name": "Angular - Route Module ",
+        "trigger": "ngrm",
+        "usage": "ngrm",
+        "description": "This will create an angular route module.",
+        "template": "ngrm.snippet"
+    },
+    {
+        "name": "Angular Html - App ",
+        "trigger": "ngapp",
+        "usage": "ngapp appName",
+        "description": "This will create an html tag with the angular app configuration.",
+        "template": "ngapp.snippet"
+    },
+    {
+        "name": "Angular Html - Image ",
+        "trigger": "ngimg",
+        "usage": "ngimg",
+        "description": "This will create an image tag with angular binders.",
+        "template": "ngimg.snippet"
+    },
+    {
+        "name": "Angular Html - Repeater Table ",
+        "trigger": "ngrep",
+        "usage": "ngrep",
+        "description": "This will create a table with an angular repeater in it.",
+        "template": "ngrep.snippet"
+    },
+    {
+        "name": "Angular Html - Include ",
+        "trigger": "nginc",
+        "usage": "nginc",
+        "description": "This will create an angular include wrapped in a div.",
+        "template": "nginc.snippet"
+    },
+    {
+        "name": "Angular Html - Get ",
+        "trigger": "ngget",
+        "usage": "ngget",
+        "description": "This will create an angular get function that will return the results returned by the http get.",
+        "template": "ngget.snippet"
+    },
+    {
+        "name": "Angular Html - Post ",
+        "trigger": "ngpost",
+        "usage": "ngpost",
+        "description": "This will create an angular post function that will return the results returned by the http post.",
+        "template": "ngpost.snippet"
+    },
+    {
+        "name": "Angular Html - JsonP ",
+        "trigger": "ngjsonp",
+        "usage": "ngjsonp",
+        "description": "This will create an angular JSONP function that will return the results returned by the http get.",
+        "template": "ngjsonp.snippet"
+    }
+]

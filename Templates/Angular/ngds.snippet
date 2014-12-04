@@ -1,0 +1,45 @@
+(function() {
+    'use strict';
+ 
+    angular.module('$${appName}.$${moduleName}')
+           .factory('$${serviceName}', $${service});
+ 
+    /* @ngInject */
+    function $${service}($http, $location, $q, exception, logger) {
+        var isPrimed = false;
+        var primePromise;
+ 
+        var service = {
+                        prime: prime,
+                        ready: ready
+                      };
+ 
+        return service;
+  
+        function prime() {
+
+            if (primePromise) {
+                return primePromise;
+            }
+ 
+            primePromise = $q.when(true).then(success);
+            return primePromise;
+ 
+            function success() {
+                isPrimed = true;
+            }
+        }
+ 
+        function ready(nextPromises) {
+
+            var readyPromise = primePromise || prime();
+ 
+            return readyPromise.then(function() { return $q.all(nextPromises); })
+                               .catch(function(){
+                                //do something with the catch
+                               }));
+        }
+ 
+    }
+})();
+!!{cursor}

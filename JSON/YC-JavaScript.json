@@ -1,0 +1,79 @@
+[
+    {
+        "name": "JavaScript - For Loop",
+        "trigger": "for",
+        "usage": "for index list",
+        "description": "Create a JavaScript for loop.",
+        "template": "jsfor.snippet"
+    },
+    {
+        "name": "JavaScript - Select Statement",
+        "trigger": "sel",
+        "usage": "sel expression case",
+        "description": "Create a JavaScript Select Statement.",
+        "template": "jssel.snippet"
+    },
+    {
+        "name": "JavaScript - Case Statement",
+        "trigger": "case",
+        "usage": "case case",
+        "description": "Create a JavaScript Case Statement.",
+        "template": "jscase.snippet"
+    },
+    {
+        "name": "JavaScript - Function",
+        "trigger": "fun",
+        "usage": "fun name",
+        "description": "Create a JavaScript Function.",
+        "template": "jsfun.snippet"
+    },
+    {
+        "name": "JavaScript - JSON Object",
+        "trigger": "json",
+        "usage": "json",
+        "description": "Create a JSON Object and assign it to a variable.",
+        "template": "jsjson.snippet"
+    },
+        {
+        "name": "JavaScript - JSON Field",
+        "trigger": "jsonf",
+        "usage": "jsonf",
+        "description": "Create a JSON Field that goes into a JSON Object.",
+        "template": "jsjsonf.snippet"
+    },
+    {
+        "name": "JavaScript - Model",
+        "trigger": "model",
+        "usage": "model",
+        "description": "Create a JavaScript Model.",
+        "template": "jsmodel.snippet"
+    },
+    {
+        "name": "JavaScript - Model Field",
+        "trigger": "modelf",
+        "usage": "modelf",
+        "description": "Create a JavaScript Model Field.",
+        "template": "jsmodelf.snippet"
+    },
+    {
+        "name": "JavaScript - If Statement",
+        "trigger": "if",
+        "usage": "if",
+        "description": "Create a JavaScript If Statement.",
+        "template": "jsif.snippet"
+    },
+    {
+        "name": "JavaScript - If / Else Statement",
+        "trigger": "ifelse",
+        "usage": "ifelse",
+        "description": "Create a JavaScript If/Else Statement.",
+        "template": "jsifelse.snippet"
+    },
+    {
+        "name": "JavaScript - Url",
+        "trigger": "url",
+        "usage": "url",
+        "description": "Create a JavaScript variable and assign it the current URL",
+        "template": "jsurl.snippet"
+    }
+]

@@ -1,0 +1,14 @@
+function $${functionName}() {
+    //Change the Url that has the data
+            
+    return $http.get('/$${url}')
+                .then($${functionName}Complete)
+                .catch(function(message){
+                        //Do Something with the error
+                    });
+ 
+    function $${functionName}Complete(data, status, headers, config) {
+        return data;
+    }
+}
+!!{cursor}

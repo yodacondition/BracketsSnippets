@@ -1,0 +1,19 @@
+function $${validationFunctionName}($http) {
+    return  {
+        require: 'ngModel',
+        link: function (scope, elm, attrs, ctrl) {
+        
+            ctrl.$parsers.unshift(function(viewValue){
+
+                if($${variable} $${condition} $${constant}) {
+                    
+                            ctrl.$setValidity('$${validatorName}', false);
+                            
+                }else{
+                    ctrl.$setValidity('$${validatorName}', true);
+                }
+                return viewValue;
+            });
+        }
+    }
+}

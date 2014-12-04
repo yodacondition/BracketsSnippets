@@ -1,0 +1,15 @@
+var $${variable} = null;
+
+$.ajax({
+        type: "GET",
+        url: $${url},
+        dataType: "html",
+        success: function (data) {
+            return data;
+        },
+        error: function (req, status, error) {
+            //do something with the error
+        }
+    }).then(function(data){
+        $${variable} = data;
+    });

@@ -1,0 +1,13 @@
+function $${functionName}() {
+    return $http.get('$${url}')
+        .then($${functionName}Complete)
+        .catch(function(message) {
+            //do something with the error and change the redirect url
+            $location.url('/');
+        });
+
+    function $${functionName}Complete(data, status, headers, config) {
+        return data;
+    }
+}
+!!{cursor}

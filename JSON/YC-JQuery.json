@@ -1,0 +1,107 @@
+[
+    {
+        "name": "JQuery - Loop",
+        "trigger": "loop",
+        "usage": "loop",
+        "description": "Create a JQuery loop Statement.",
+        "template": "jqloop.snippet"
+    },
+    {
+        "name": "JQuery - Find",
+        "trigger": "find",
+        "usage": "find",
+        "description": "Create a JQuery Find Statement.",
+        "template": "jqfind.snippet"
+    },
+    {
+        "name": "JQuery - Change Property",
+        "trigger": "prop",
+        "usage": "prop",
+        "description": "Create a JQuery Change Property Statement.",
+        "template": "jqprop.snippet"
+    },
+    {
+        "name": "JQuery - Show Element",
+        "trigger": "show",
+        "usage": "show",
+        "description": "Create a JQuery Show Element Statement.",
+        "template": "jqshow.snippet"
+    },
+    {
+        "name": "JQuery - Hide Element",
+        "trigger": "show",
+        "usage": "show",
+        "description": "Create a JQuery Show Element Statement.",
+        "template": "jqshow.snippet"
+    },
+    {
+        "name": "JQuery - Find And Loop",
+        "trigger": "findeach",
+        "usage": "findeach",
+        "description": "Create a JQuery Find and then loop through elements that were found.",
+        "template": "jqfindeach.snippet"
+    },
+    {
+        "name": "JQuery - Find And Change",
+        "trigger": "findchange",
+        "usage": "findchange",
+        "description": "Create a JQuery Find and do an on change on each.",
+        "template": "jqfindchange.snippet"
+    },
+    {
+        "name": "JQuery - Change",
+        "trigger": "change",
+        "usage": "change",
+        "description": "Create a JQuery Change Event.",
+        "template": "jqchange.snippet"
+    },
+    {
+        "name": "JQuery - Click",
+        "trigger": "change",
+        "usage": "click",
+        "description": "Create a JQuery Click Event.",
+        "template": "jqclick.snippet"
+    },
+    {
+        "name": "JQuery - Empty",
+        "trigger": "empty",
+        "usage": "empty",
+        "description": "Create a JQuery Empty Statement.",
+        "template": "jqempty.snippet"
+    },
+    {
+        "name": "JQuery - Val",
+        "trigger": "val",
+        "usage": "val",
+        "description": "Create a JQuery Get Value Statement and assign it to a variable.",
+        "template": "jqval.snippet"
+    },
+    {
+        "name": "JQuery - Text",
+        "trigger": "text",
+        "usage": "text",
+        "description": "Create a JQuery Get Text Statement and assign it to a variable.",
+        "template": "jqval.snippet"
+    },
+    {
+        "name": "JQuery - AJAX Post",
+        "trigger": "post",
+        "usage": "post",
+        "description": "Create a JQuery Ajax Post to URL and assign results to a variable.",
+        "template": "jqpost.snippet"
+    },
+    {
+        "name": "JQuery - AJAX Get",
+        "trigger": "get",
+        "usage": "get",
+        "description": "Create a JQuery Ajax Get to URL and assign results to a variable.",
+        "template": "jqget.snippet"
+    },
+    {
+        "name": "JQuery - JSONP",
+        "trigger": "jsonp",
+        "usage": "jsonp",
+        "description": "Create a JQuery Ajax JSONP to URL and assign results to a variable.",
+        "template": "jqjsonp.snippet"
+    }
+]
